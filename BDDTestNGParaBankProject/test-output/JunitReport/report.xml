@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="6.186">
+    <testcase classname="testing HomePage" name="To check weather company logo and caption displayed" time="5.221">
+        <system-out>
+            <![CDATA[Given user opened the browser...............................................passed
+And entered the url.........................................................passed
+Then company logo is diplayed...............................................passed
+And caption displayed as "Experience the difference"........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="User Registration Page functional testing" name="to fill the registration page" time="5.409">
+        <system-out>
+            <![CDATA[Given user opened the browser...............................................passed
+And entered the url.........................................................passed
+When user click on the registration.........................................passed
+And put the data from "RegistrationData" with row number 0..................passed
+And click on send button....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="User Registration Page functional testing" name="to fill the registration page 2" time="6.171">
+        <system-out>
+            <![CDATA[Given user opened the browser...............................................passed
+And entered the url.........................................................passed
+When user click on the registration.........................................passed
+And put the data from "RegistrationData" with row number 1..................passed
+And click on send button....................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
